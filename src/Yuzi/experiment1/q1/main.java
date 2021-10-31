@@ -1,6 +1,5 @@
 package Yuzi.experiment1.q1;
 
-import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ public class main {
         while (true) {
             Random r = new Random();
             int i = r.nextInt(100) + 1;
-            Scanner s = new Scanner(System.in).useLocale(Locale.US);
+            Scanner s = new Scanner(System.in);
             System.out.print("请输入一个1-100之间的数： ");
             int cin = s.nextInt();
             int counter = 1;

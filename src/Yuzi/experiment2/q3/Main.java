@@ -14,7 +14,7 @@ class Station extends Thread {
             synchronized (ob) {// 这个很重要，必须使用一个锁，进去的人会把钥匙拿在手上，出来后才把钥匙拿让出来
                 if (ticket > 0) {
                     try {
-                        Thread.sleep(500);
+                        Thread.sleep(700);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

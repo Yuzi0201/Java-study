@@ -6,7 +6,8 @@ public class Main {
         JFrame f = new JFrame("Menu");   //创建一个窗口
         f.setSize(400,200);  //设置窗口的大小
         f.setLocationRelativeTo(null);  //设置窗口的位置为中央位置
-        f.setResizable(false);   //设置窗口大小不能f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setResizable(false);   //设置窗口大小不能
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JMenuBar mb = new JMenuBar();    //创建一个菜单条
         f.setJMenuBar(mb);               //将菜单条加入窗口
         JMenu JMenu_File = new JMenu("File");    //创建菜单File
